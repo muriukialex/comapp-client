@@ -1,0 +1,29 @@
+@import '../../const.sass'
+
+.Sidebar
+    background-color: $orange
+    height: 100vh
+    width: 16%
+    position: fixed
+
+    &__Link
+        list-style: none
+
+        a
+            text-decoration: none
+
+        &--ListItem
+            padding: 1rem
+            font-size: 1em
+            display: flex
+            align-items: center
+            cursor: pointer
+            height: 4rem
+            width: 100%
+            color: $black
+            &:hover
+                background-color: $light-orange
+                transition: .5s ease
+
+            svg
+                margin-right: 1rem
