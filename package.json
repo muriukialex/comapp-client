@@ -11,6 +11,8 @@
 	"author": "muriukialex",
 	"license": "ISC",
 	"dependencies": {
+		"@apollo/client": "^3.7.10",
+		"graphql": "^16.6.0",
 		"i18next": "^22.4.11",
 		"i18next-http-backend": "^2.1.1",
 		"react": "^18.2.0",
